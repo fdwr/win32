@@ -368,7 +368,7 @@ if( dot(lightDirection, normalVector)  >  0 )
 
 
 ```
-if( dot(lightDirection, normalVector) &< 0 )
+if( dot(lightDirection, normalVector)  < 0 )
    // Do nothing; the face is backwards
 ```
 
@@ -399,7 +399,7 @@ if( position.z >= oldPosition.z )
 
 
 ```
-if( currentValue &<= someInitialCondition )
+if( currentValue <= someInitialCondition )
    // Reset the current value to its initial condition
 ```
 
